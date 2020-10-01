@@ -30,21 +30,44 @@ namespace CS_ASP_12
             if (radiobuttonPencil.IsChecked == true)
             {
                 labelAnswer.Content = "Pencil, Very Reliable! ";
+                imagePencil.Opacity = 100;
+                imagePen.Opacity = 0;
+                imagePhone.Opacity = 0;
+                imagePad.Opacity = 0;
+                
 
             }
             else if (radioButtonPen.IsChecked == true)
             {
                 labelAnswer.Content = "Pen, Nice Choice";
+                imagePencil.Opacity = 0;
+                imagePen.Opacity = 100;
+                imagePhone.Opacity = 0;
+                imagePad.Opacity = 0;
+
 
             }
             else if (radiobuttonPhone.IsChecked == true)
             {
                 labelAnswer.Content = " Phone, Must be from the future ";
+                imagePencil.Opacity = 0;
+                imagePen.Opacity = 0;
+                imagePhone.Opacity = 100;
+                imagePad.Opacity = 0;
+
 
             }
             else if (radiobuttonPad.IsChecked == true)
             {
                 labelAnswer.Content = " Pad, Welcome to 2020";
+                imagePencil.Opacity = 0;
+                imagePen.Opacity = 0;
+                imagePhone.Opacity = 0;
+                imagePad.Opacity = 100;
+
+
+
+
 
             }
         }

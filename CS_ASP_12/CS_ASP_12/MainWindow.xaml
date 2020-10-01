@@ -14,6 +14,11 @@
         <RadioButton x:Name="radiobuttonPad" Content="Pad" HorizontalAlignment="Left" Margin="131,238,0,0" VerticalAlignment="Top"/>
         <Button x:Name="buttonPushMe" Content="Button" HorizontalAlignment="Left" Margin="213,302,0,0" VerticalAlignment="Top" Click="buttonPushMe_Click"/>
         <Label x:Name="labelAnswer" Content="" HorizontalAlignment="Left" Margin="550,285,0,0" VerticalAlignment="Top" Width="191"/>
+        <Image x:Name="imagePencil" HorizontalAlignment="Left" Height="147" Margin="520,141,0,0" VerticalAlignment="Top" Width="161" Source="/pencil.png" Opacity="0"/>
+        <Image x:Name="imagePen" HorizontalAlignment="Left" Height="154" Margin="505,168,0,0" VerticalAlignment="Top" Width="174" Source="/pen.png" Opacity="0"/>
+        <Image x:Name="imagePhone" HorizontalAlignment="Left" Height="173" Margin="505,159,0,0" VerticalAlignment="Top" Width="180" Source="/phone.png" Opacity="0"/>
+        <Image x:Name="imagePad" HorizontalAlignment="Left" Height="165" Margin="480,147,0,0" VerticalAlignment="Top" Width="172" Source="/tablet.png" Opacity="0"/>
+        <TextBox HorizontalAlignment="Left" Margin="249,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="246" Text="Choose the one you prefer the MOST"/>
 
     </Grid>
 </Window>
